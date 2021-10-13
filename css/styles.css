@@ -198,12 +198,12 @@ body {
   margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
+  transition: 250ms ease;
 }
 .main-btn:hover,
 .main-btn:focus {
   background: #188ce8;
   color: var(--third-text-color);
-  transition: 250ms ease;
 }
 
 /*--------sec2--------*/
@@ -380,16 +380,15 @@ body {
   width: 106px;
   height: 60px;
   background-repeat: no-repeat;
+  transition: fill 250ms;
 }
 .li-sec-four:hover {
   border: 1px solid var(--fourth-text-color);
   border-radius: 4px;
-  transition: 250ms linear;
 }
 .sec-four-svg:hover {
   background-color: var(--primary-title-color);
   fill: var(--fourth-text-color);
-  transition: 250ms linear;
 }
 
 /*--------footer--------*/
