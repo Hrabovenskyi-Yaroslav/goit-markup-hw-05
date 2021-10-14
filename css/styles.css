@@ -253,9 +253,26 @@ body {
   align-items: center;
 }
 .img-sec-two {
+  position: relative;
   margin-right: 30px;
 }
-
+.apps {
+  width: 370px;
+  height: 70px;
+  background: #2f303acc;
+  position: absolute;
+  bottom: 0px;
+}
+.words {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 27px;
+}
 .icon-about {
   width: 270px;
   height: 120px;
