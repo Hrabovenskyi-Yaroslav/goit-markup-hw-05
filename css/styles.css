@@ -255,9 +255,20 @@ body {
 .img-sec-two {
   margin-right: 30px;
 }
-.svg-sec2 {
+
+.icon-about {
   width: 270px;
   height: 120px;
+  background: var(--fourth-title-color);
+  margin-bottom: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+.svg-sec2 {
+  width: 70px;
+  height: 70px;
   background: var(--fourth-title-color);
   margin-bottom: 30px;
   background-repeat: no-repeat;
@@ -337,12 +348,16 @@ body {
 .social-link:focus,
 .social-link:hover {
   background: var(--fourth-text-color);
-  fill: var(--primary-title-color);
+}
+.social-link:focus .social-icon,
+.social-link:hover .social-icon {
+  fill: var(--third-text-color);
 }
 .social-icon {
   width: 20px;
   height: 20px;
   background-repeat: no-repeat;
+  fill: #afb1b8;
 }
 
 /*-------sec4--------*/
@@ -380,14 +395,16 @@ body {
   width: 106px;
   height: 60px;
   background-repeat: no-repeat;
-  transition: fill 250ms;
+  fill: #afb1b8;
+  transition: 2500ms ease;
 }
-.li-sec-four:hover {
+.li-sec-four:hover,
+.li-sec-four:focus {
   border: 1px solid var(--fourth-text-color);
   border-radius: 4px;
 }
-.sec-four-svg:hover {
-  background-color: var(--primary-title-color);
+.li-sec-four:hover .sec-four-svg,
+.li-sec-four:focus .sec-four-svg {
   fill: var(--fourth-text-color);
 }
 
